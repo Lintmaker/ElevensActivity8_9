@@ -14,7 +14,7 @@ public abstract class Board {
     private Card[] cards;
 
     /**
-     * The deck of cards being used to play the current game.
+     * The deck of cards being used to play the current game1.
      */
     private Deck deck;
 
