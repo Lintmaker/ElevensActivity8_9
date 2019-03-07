@@ -83,8 +83,8 @@ public class ElevensBoard extends Board {
     @Override
     public boolean anotherPlayIsPossible()
     {
-		/* *** TO BE IMPLEMENTED IN ACTIVITY 9 *** */
-        return true;
+        List<Integer> cIndexes = cardIndexes();
+        return containsPairSum11(cIndexes) || containsJQK(cIndexes);
     }
 
     /**
