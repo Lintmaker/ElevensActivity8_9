@@ -100,7 +100,7 @@ public class ElevensBoard extends Board {
         for(int i=0;i<selectedCards.size();i++){
             sum+=cardAt(i).pointValue();
         }
-        return false;
+        return true;
     }
 
     /**
