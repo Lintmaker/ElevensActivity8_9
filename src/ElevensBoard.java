@@ -99,6 +99,16 @@ public class ElevensBoard extends Board {
      */
     private boolean containsJQK(List<Integer> selectedCards) {
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 9 *** */
-        return true;
+        int x = 0;
+            for (int i = 0; x<selectedCards.size(); i++)
+            {
+                x+= cardAt(i).pointValue();
+            }
+            if (x == 0)
+            {
+             return true;
+            }
+            return false;
+
     }
 }
